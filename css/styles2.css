@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Inter-bold';
+    src: url(../fonts/Inter-Bold.ttf)
+    format('TrueType');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../fonts/Inter-Regular.ttf)
+    format('TrueType');
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(../fonts/Inter-SemiBold.ttf)
+    format('TrueType');
+}
+body{
+    Font-size : 14px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    height: 450px;
+    width: 320px;
+    align-items: center;
+    margin: 70px 40% 0px 40%;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+.menu:hover{
+    box-shadow:inset 1px 1px 10px 5px hsl(75, 94%, 57%);
+    transition: 0.5s;
+}
+.menu img {
+    margin: 30px;
+}
+.menu h1{
+    font-family: 'Inter-bold';
+    margin: 3px;
+}
+.menu h4{
+    font-family: 'Inter-regular';
+    margin: 3px;
+    color: hsl(75, 94%, 57%);
+    
+}
+.menu p{
+    font-family: 'Inter-regular';
+    padding-top: 25px;
+    margin: 0;
+}
+.links{
+    margin: 0px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    height: 70px;
+    width: 260px;
+    border-radius: 5px;
+    transition: 0.8s;
+    margin: 10px;
+}
+.botao a{
+    font-family: 'inter-semibold';
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding-top: 23px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+.botao:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+.botao a:hover{
+    color: hsl(0, 0%, 12%);
+}
